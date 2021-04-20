@@ -1,4 +1,5 @@
-# Installation guide for zsh and conda environment
+# Development environment installation guidelines
+#### zsh, anaconda, dotfiles
 
 ## Prerequisites
 * Ubuntu >= 16.04
