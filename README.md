@@ -20,9 +20,17 @@ Install cuda manually following [NVIDIA CUDA Installation Guide for Linux](https
     sudo apt-get install zsh
 
 ## user >>
-    chsh -s $(which zsh)                      
+    chsh -s $(which zsh)
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     bash Anaconda3_LATEST.sh
     curl -fsSL https://dotfiles.wook.kr/etc/install | bash
     source /home/USERNAME/anaconda3/bin/activate
     conda init zsh
     dotfile update
+
+## user (at local macbook) >>
+    git clone https://github.com/powerline/fonts.git
+    cd fonts
+    ./install.sh
+    
+ Open `ITerm2 > Preferences > Profiles > Text > Change Font` and set it to something that has “for Powerline”.
