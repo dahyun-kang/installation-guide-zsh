@@ -26,7 +26,7 @@ Install cuda manually following [NVIDIA CUDA Installation Guide for Linux](https
     curl -fsSL https://dotfiles.wook.kr/etc/install | bash
     source /home/USERNAME/anaconda3/bin/activate
     conda init zsh
-    dotfile update
+    dotfiles update
     source ~/.dotfiles/zsh/zshrc
 
 ## user (at local macbook) >>
