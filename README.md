@@ -27,6 +27,7 @@ Install cuda manually following [NVIDIA CUDA Installation Guide for Linux](https
     source /home/USERNAME/anaconda3/bin/activate
     conda init zsh
     dotfile update
+    source ~/.dotfiles/zsh/zshrc
 
 ## user (at local macbook) >>
     git clone https://github.com/powerline/fonts.git
